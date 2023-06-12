@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.SmartCampus</groupId>
-    <artifactId>SmartCampus</artifactId>
+    <artifactId>AdminBoard</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SmartCampus</name>
     <description>SmartCampus</description>
@@ -17,6 +17,11 @@
         <java.version>17</java.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.python</groupId>
+            <artifactId>jython-standalone</artifactId>
+            <version>2.7.3</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jdbc</artifactId>
